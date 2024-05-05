@@ -64,13 +64,28 @@ body{
     height: 100px;
 }
 .headertext{
+    position: absolute;
+    top:15% ;
+    left: 25%;
     font-weight: 300;
     color: #131313;
    padding-top: 150px;
-    width: 52vw;
+    width: 50%;
     padding-bottom: 10%;
     margin: auto;
     animation: text 3s cubic-bezier(0.92, 0.02, 1, 1)  1 forwards ;  
+}
+.bgi{
+    height: max-content;
+    padding-bottom: 10%;
+    margin: auto;
+    width: 70vw;
+}
+#bgi{
+    margin: auto;
+   opacity: 0.2;
+    height: 100%;
+    width: 100%;
 }
 #change{
     color: #424242;
